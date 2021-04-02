@@ -10,6 +10,15 @@ namespace Double_Cola
     {
         static void Main(string[] args)
         {
+            var lista = new List<string> {
+                "Sheldon",
+                "Leonard",
+                "Penny",
+                "Rajesh",
+                "Howard"
+            };
+            var cola = new QueueManagement();
+            cola.EmpezarCuenta(723070, lista);
         }
     }
 }
